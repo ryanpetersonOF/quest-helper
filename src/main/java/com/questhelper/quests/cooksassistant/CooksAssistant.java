@@ -59,7 +59,7 @@ public class CooksAssistant extends BasicQuestHelper
 		doQuest = new NpcStep(this, NpcID.COOK_4626, new WorldPoint(3206, 3214, 0),
 			"Give the Cook in Lumbridge Castle's kitchen the required items to finish the quest.",
 			egg, milk, flour);
-		doQuest.addDialogStep("I'll get right on it.");
+		doQuest.addDialogSteps("What's wrong?", "Yes.", "I'll get right on it.");
 
 		steps.put(0, doQuest);
 		steps.put(1, doQuest);
